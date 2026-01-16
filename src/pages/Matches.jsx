@@ -142,7 +142,7 @@ export default function Matches() {
                             className="bg-card-dark border border-border-dark p-5 rounded-xl flex flex-col gap-4 hover:border-primary/30 transition-colors"
                         >
                             <div className="flex justify-between items-center">
-                                <span className="text-[10px] font-bold text-white/40 uppercase tracking-widest">Match #{match.id.substring(0, 4)} • {formatDate(match.date)}</span>
+                                <span className="text-[10px] font-bold text-white/40 uppercase tracking-widest">Match #{String(match.id).padStart(3, '0')} • {formatDate(match.date)}</span>
                                 {match.status === 'live' ? (
                                     <span className="flex items-center gap-1 text-primary text-[10px] font-bold">
                                         <span className="relative flex h-2 w-2">

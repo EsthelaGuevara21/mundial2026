@@ -142,7 +142,7 @@ export default function Predictions() {
                         >
                             <div className="flex justify-between items-start mb-5">
                                 <div>
-                                    <span className="text-[10px] font-black bg-white/10 text-white/50 px-2 py-1 rounded uppercase tracking-widest">Match #{match.id.substring(0, 4)}</span>
+                                    <span className="text-[10px] font-black bg-white/10 text-white/50 px-2 py-1 rounded uppercase tracking-widest">Match #{String(match.id).padStart(3, '0')}</span>
                                     <p className="text-xs text-white/40 mt-2">{new Date(match.date).toLocaleDateString()}</p>
                                 </div>
                                 {saving[match.id] ? (
