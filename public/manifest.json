@@ -1,0 +1,21 @@
+{
+  "name": "World Cup 2026 Fan App",
+  "short_name": "Mundial 2026",
+  "description": "La experiencia definitiva para fans de la Copa Mundial 2026",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#16181d",
+  "theme_color": "#1dbac9",
+  "icons": [
+    {
+      "src": "https://lh3.googleusercontent.com/aida-public/AB6AXuCltvnnXdIJdAq88HwnjZVhZjYQayB4EuYTg24v4zTzKOHG4d4BrxdraBc1jNWWOxkvZ3DU_thgPJibz-mea3WkX4D72utK-M0o0EuhgToBOfhsbKWjjyRC_VRCLu63HVURCMZVmmsD7nALeSJwXEOA_JzwQErLcp5ate87dO-W6JsCRkQrO4PmHWDF98GxmTfb2FoO_oAnYn1khB41SPQyEnFgfdBPRuqKSEU-R4II0z-16-1stoBzOyEoDzPw4J14_Ca1xHf2rWc",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://lh3.googleusercontent.com/aida-public/AB6AXuCltvnnXdIJdAq88HwnjZVhZjYQayB4EuYTg24v4zTzKOHG4d4BrxdraBc1jNWWOxkvZ3DU_thgPJibz-mea3WkX4D72utK-M0o0EuhgToBOfhsbKWjjyRC_VRCLu63HVURCMZVmmsD7nALeSJwXEOA_JzwQErLcp5ate87dO-W6JsCRkQrO4PmHWDF98GxmTfb2FoO_oAnYn1khB41SPQyEnFgfdBPRuqKSEU-R4II0z-16-1stoBzOyEoDzPw4J14_Ca1xHf2rWc",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
